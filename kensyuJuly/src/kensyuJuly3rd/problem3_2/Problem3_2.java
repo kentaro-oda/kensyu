@@ -47,7 +47,7 @@ public class Problem3_2 {
 			Date today = Date.valueOf(now2);
 
 			/**
-			 * 運勢とおみくじのテーブルにデータを登録・更新
+			 * おみくじテーブルにデータを登録・更新
 			 */
 			DBRelation2.setOmikujTable(userName, today);
 
